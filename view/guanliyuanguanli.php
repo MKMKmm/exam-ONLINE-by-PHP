@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+    <html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>管理员管理界面</title>
+    <style type="text/css">
+    body{
+            margin: 0 auto;
+            background-image:url(./images/考试.jpg);
+        }
+    #globel{
+        width: 100%;
+        height:100%;
+        
+    }
+    #head{
+        width:100%;
+        height: 20%;
+        position: relative;
+    }
+    #headinga{
+        width: 25%;
+        height: 50%;
+        position: inherit;
+        top: 20%;
+        left: 40%;
+    }
+    #body{
+        width: 20%;
+        height: 80%;
+        float: left;
+    }
+    #body1{
+        width: 80%;
+        height: 80%;
+        float: right;
+        
+    }
+    </style>
+</head>
+<body>
+<div id="globel">
+<div id="head">
+<div id="headinga"><h1>管理员管理信息</h1></div>
+</div>
+<div id="body">
+<h2><a  target="body1" href="admin.php">管理员信息管理</a></h2>
+<h2><a  target="body1" href="teacher.php">教官信息管理</a></h2>
+<h2><a  target="body1" href="student.php">学生信息管理</a></h2>
+<h2><a  target="body1" href="lesson.php">考核科目管理</a></h2>
+<h2><a  target="body1" href="book.php">教材信息管理</a></h2>
+<h2><a  target="body1" href="check.php">技术把关状态管理</a></h2>
+<h2><a  target="body1" href="major.php">导弹专业信息管理</a></h2>
+<h2><a  target="body1" href="plan.php">处置预案管理</a></h2>
+<h2><a  target="body1"href="position.php">岗位信息管理</a></h2>
+<h2><a  target="body1" href="test.php">试题信息管理</a></h2>
+<h2><a  target="body1" href="theory.php">专业原理管理</a></h2>
+<h2><a  target="body1" href="score.php">参训人员考核记录管理</a></h2>
+</div>
+<div id="body1">
+<iframe name="body1" width="1200" height="635"></iframe>
+</div>
+</div>
+</body>
+</html>
